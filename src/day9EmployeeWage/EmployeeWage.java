@@ -2,15 +2,10 @@ package day9EmployeeWage;
 
 public class EmployeeWage {
 
-	static final int WagePerHour = 20;
-	static final int FullDayHour = 8;
-	static final int PartTimeHour = 4;
 	static final int IsPartTime = 0;
 	static final int IsFulltime = 1;
-	static final int WorkingDayInMonth = 20;
-	static final int WorkingHourPerMonth = 100;
 
-	public void Emp() {
+	public void Emp(int WagePerHour,int FullDayHour, int PartTimeHour, int WorkingDayInMonth, int WorkingHourPerMonth ) {
 		/**
 		 * initializing values 
 		 * putting condition of total 100 hours or 20 days
@@ -20,8 +15,9 @@ public class EmployeeWage {
 		 * if 2 then absent 
 		 * using switch case statement printing employee is present or not or part time
 		 * calculating wages for total 100 hours or 20 days
+		 * creating main class another class
+		 * calculating for Reliance , Flipkart and Amazon
 		 */
-		System.out.println("Welcome to Employee Wage Problem ");
 		int dailyWages = 0;
 		int MonthlyWages = 0;
 		int workingDay = 1;
