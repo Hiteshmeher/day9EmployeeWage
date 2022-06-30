@@ -10,12 +10,12 @@ public class EmployeeWage {
 	static final int WorkingDayInMonth = 20;
 	static final int WorkingHourPerMonth = 100;
 
-	public static void main(String[] args) {
+	public void Emp() {
 		/**
 		 * initializing values 
 		 * putting condition of total 100 hours or 20 days
 		 * generating random number 0, 1, 2 
-		 * if o then part time job
+		 * if o the part time job
 		 * if 1 then present for the job 
 		 * if 2 then absent 
 		 * using switch case statement printing employee is present or not or part time
